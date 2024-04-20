@@ -9,10 +9,10 @@ function updateClock(city, offset) {
   }
   
   function updateTime() {
-    updateClock('new-york', -5); // New York (UTC-5)
-    updateClock('london', 0);    // London (UTC+0)
-    updateClock('tokyo', 9);      // Tokyo (UTC+9)
+    updateClock('new-york', -5);
+    updateClock('london', 0);    
+    updateClock('tokyo', 9);      
   }
   
-  setInterval(updateTime, 1000); // Update every second
+  setInterval(updateTime, 1000); 
   
